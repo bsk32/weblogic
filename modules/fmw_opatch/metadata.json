@@ -1,0 +1,15 @@
+{
+  "name": "oracle-fmw_opatch",
+  "version": "0.1.2",
+  "author": "oracle",
+  "summary": "Patch Oracle WebLogic 12c or any FMW 11g or 12c product",
+  "license": "MIT",
+  "source": "https://github.com/oracle/puppet-samples/fmw_opatch",
+  "project_page": "https://github.com/oracle/puppet-samples",
+  "issues_url": "https://github.com/oracle/puppet-samples",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"oracle-fmw_inst","version_requirement":">= 0.1.0"}
+  ]
+}
+

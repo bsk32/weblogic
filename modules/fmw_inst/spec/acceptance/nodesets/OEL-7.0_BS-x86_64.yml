@@ -1,0 +1,13 @@
+HOSTS:
+  oel-70-x64:
+    roles:
+      - agent
+      - default
+    platform: el-7-x86_64
+    box: OEL-7.0_BS-x86_64
+    hypervisor : vagrant
+
+CONFIG:
+  type: foss
+  vagrant_memsize: 2048
+  log_level: verbose

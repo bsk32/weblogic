@@ -1,0 +1,14 @@
+HOSTS:
+  debian-78-x64:
+    roles:
+      - agent
+      - default
+    platform:   debian-7-amd64
+    box:        puppetlabs/debian-7.8-64-puppet
+    hypervisor: vagrant
+    ip:         '10.10.10.81'
+
+CONFIG:
+  type: foss
+  vagrant_memsize: 2048
+  log_level: verbose

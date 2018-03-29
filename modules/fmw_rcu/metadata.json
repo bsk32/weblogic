@@ -1,0 +1,16 @@
+{
+  "name": "oracle-fmw_rcu",
+  "version": "0.1.2",
+  "author": "oracle",
+  "summary": "Creating a FMW repository on a 11g or 12c Oracle Database",
+  "license": "MIT",
+  "source": "https://github.com/oracle/puppet-samples/fmw_rcu",
+  "project_page": "https://github.com/oracle/puppet-samples",
+  "issues_url": "https://github.com/oracle/puppet-samples",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"oracle-fmw_wls","version_requirement":">= 0.1.0"},
+    {"name":"oracle-fmw_inst","version_requirement":">= 0.1.0"}
+  ]
+}
+

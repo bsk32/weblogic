@@ -1,0 +1,17 @@
+{
+  "name": "oracle-fmw_domain",
+  "version": "0.1.2",
+  "author": "oracle",
+  "summary": "Create a WebLogic (FMW) Domain with FMW extensions on a Windows, Linux or Solaris host",
+  "license": "MIT",
+  "source": "https://github.com/oracle/puppet-samples/fmw_domain",
+  "project_page": "https://github.com/oracle/puppet-samples",
+  "issues_url": "https://github.com/oracle/puppet-samples",
+  "dependencies": [
+    {"name":"puppetlabs-powershell","version_requirement":">= 1.0.4"},
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"oracle-fmw_wls","version_requirement":">= 0.1.0"},
+    {"name":"oracle-fmw_inst","version_requirement":">= 0.1.0"}
+  ]
+}
+

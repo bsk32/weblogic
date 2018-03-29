@@ -1,0 +1,13 @@
+HOSTS:
+  oel-6.6:
+    roles:
+      - agent
+      - default
+    platform: el-6-x86_64
+    box: OEL-6.6
+    hypervisor : vagrant
+
+CONFIG:
+  type: foss
+  vagrant_memsize: 2048
+  log_level: verbose
